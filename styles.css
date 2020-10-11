@@ -1,0 +1,31 @@
+/*Síðan og ramminn*/
+body {
+    margin: 0px;
+    overflow: hidden;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*Takkarninr*/
+button{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    padding: 1em;
+}
+.reset{
+    top: 60px;
+}
+
+/*Upplýsingarnar og nafn í horninu á skjánum*/
+p{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: -5px;
+}
